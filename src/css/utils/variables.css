@@ -1,0 +1,53 @@
+/* ================================
+   VARIABLES - Design System
+   ================================ */
+
+:root {
+
+  /* ===== Colors ===== */
+  --color-primary: #FFD226;
+  --color-yellow-light: #FFF9AB;
+  --color-yellow-soft: #FDF3CD;
+  --color-bg-menu: #FBF9F6;
+  --color-bg-header: #F8EEE2;
+  --color-text-main: #534F4B;
+  --color-accent-red: #E34343;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  /* ===== Font Family ===== */
+  --font-primary: "DM Serif Text", serif;
+
+  /* ===== Font Sizes ===== */
+  --fs-xxs: 0.5rem;      /* 8px */
+  --fs-xs: 0.6875rem;    /* 11px */
+  --fs-sm: 0.875rem;     /* 14px */
+  --fs-md: 1rem;         /* 16px */
+  --fs-lg: 1.25rem;      /* 20px */
+  --fs-xl: 1.5rem;       /* 24px */
+  --fs-2xl: 2rem;        /* 32px */
+  --fs-3xl: 3rem;        /* ~48px */
+
+  /* ===== Font Weights ===== */
+  --fw-regular: 400;
+
+  /* ===== Line Heights ===== */
+  --lh-tight: 95%;
+  --lh-normal: 113%;
+  --lh-relaxed: 121%;
+  --lh-large: 127%;
+
+  /* ===== Letter Spacing ===== */
+  --ls-normal: 0;
+  --ls-wide: 0.04em;
+
+  /* ===== Spaces ===== */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+}

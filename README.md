@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Ruslana
+- PRÉNOM : Budniak
+- GROUPE : C1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA :  https://www.figma.com/design/mUx3G5HxunWpBt3XhMXT12/Budniak-Ruslana-Maquette-festival?node-id=2-17&t=cF1iUceN3iQHZkch-1
 
 ## Sujet
 

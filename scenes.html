@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Les Scènes</title>
+
+  <link rel="stylesheet" href="/src/css/style.css"/>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <a class="header__link" href="/index.html">
+      <img class="header__logo" src="/assets/img/logo-festival.svg" alt="Logo du festival"/>
+    </a>
+
+    <button class="header__menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+      <img src="/assets/icons/icon-menu.svg" alt="Menu"/>
+    </button>
+
+    <nav class="header__menu menu" id="mainNav" hidden>
+      <ul class="menu__list u-list-unstyled">
+        <li class="menu__item"><a class="menu__link" href="/index.html">Accueil</a></li>
+        <li class="menu__item"><a class="menu__link" href="/about.html">À propos</a></li>
+        <li class="menu__item"><a class="menu__link" href="/programme.html">Programme</a></li>
+        <li class="menu__item"><a class="menu__link" href="/artistes.html">Artistes</a></li>
+        <li class="menu__item"><a class="menu__link" href="/scenes.html">Scènes</a></li>
+        <li class="menu__item"><a class="menu__link" href="/infos-pratiques.html">Infos pratiques</a></li>
+        <li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE TITLE ===== -->
+  <section class="scenes-hero">
+    <h1 class="scenes-hero__title">Les Scènes</h1>
+  </section>
+
+  <!-- ================= SCENE 1 ================= -->
+  <section class="scene-block">
+
+    <div class="scene-block__header">
+      <h2 class="scene-block__title">Scène La Roselière</h2>
+    </div>
+
+    <img src="/assets/img/scene-la-roseliere.webp" alt="Scène La Roselière" class="scene-block__img"/>
+
+    <!-- Location icon -->
+    <a 
+      href="https://www.google.com/maps/search/?api=1&query=La+Roseli%C3%A8re+Montb%C3%A9liard"
+      target="_blank"
+      class="scene-block__location"
+    >
+      <img src="/assets/icons/icon-location-scene.svg" alt="Localisation"/>
+    </a>
+
+    <!-- Day filters -->
+    <div class="scene-filters">
+      <button class="scene-filters__btn" data-day="26">26 juin</button>
+      <button class="scene-filters__btn" data-day="27">27 juin</button>
+      <button class="scene-filters__btn" data-day="28">28 juin</button>
+    </div>
+
+    <!-- Artists list (hidden by default in CSS) -->
+    <div class="scene-artists" data-day-group="26">
+      <div class="artist-card">
+        <img src="/assets/img/youn-sun-nah.jpg" alt="Youn Sun Nah"/>
+        <p>Youn Sun Nah</p>
+      </div>
+
+      <div class="artist-card">
+        <img src="/assets/img/nicola-conte.jpg" alt="Nicola Conte"/>
+        <p>Nicola Conte</p>
+      </div>
+
+      <div class="artist-card">
+        <img src="/assets/img/matteo-mancuso.jpg" alt="Matteo Mancuso"/>
+        <p>Matteo Mancuso</p>
+      </div>
+    </div>
+
+    <div class="scene-artists" data-day-group="27">
+      <div class="artist-card"><img src="/assets/img/nicola-conte.jpg"/><p>Nicola Conte</p></div>
+      <div class="artist-card"><img src="/assets/img/erik-truffaz.jpg"/><p>Erik Truffaz</p></div>
+      <div class="artist-card"><img src="/assets/img/limperatrice.png"/><p>L’Impératrice</p></div>
+      <div class="artist-card"><img src="/assets/img/jacob-collier.jpg"/><p>Jacob Collier</p></div>
+    </div>
+
+    <div class="scene-artists" data-day-group="28">
+      <div class="artist-card"><img src="/assets/img/youn-sun-nah.jpg"/><p>Youn Sun Nah</p></div>
+      <div class="artist-card"><img src="/assets/img/matteo-mancuso.jpg"/><p>Matteo Mancuso</p></div>
+      <div class="artist-card"><img src="/assets/img/erik-truffaz.jpg"/><p>Erik Truffaz</p></div>
+    </div>
+
+  </section>
+
+
+  <!-- ================= SCENE 2 ================= -->
+  <section class="scene-block">
+
+    <div class="scene-block__header">
+      <h2 class="scene-block__title">Scène Le Pré de la Rose</h2>
+    </div>
+
+    <img src="/assets/img/scene-pre-de-la-rose.jpg" alt="Scène Le Pré de la Rose" class="scene-block__img"/>
+
+    <a 
+      href="https://www.google.com/maps/search/?api=1&query=Le+Pr%C3%A9+de+la+Rose+Montb%C3%A9liard"
+      target="_blank"
+      class="scene-block__location"
+    >
+      <img src="/assets/icons/icon-location-scene.svg" alt="Localisation"/>
+    </a>
+
+    <div class="scene-filters">
+      <button class="scene-filters__btn" data-day="26">26 juin</button>
+      <button class="scene-filters__btn" data-day="27">27 juin</button>
+      <button class="scene-filters__btn" data-day="28">28 juin</button>
+    </div>
+
+    <div class="scene-artists" data-day-group="26">
+      <div class="artist-card"><img src="/assets/img/roosevelt.jpg"/><p>Roosevelt</p></div>
+      <div class="artist-card"><img src="/assets/img/en-attendant-ana.jpg"/><p>En Attendant Ana</p></div>
+      <div class="artist-card"><img src="/assets/img/caramelo-de-cuba.png"/><p>Caramelo de Cuba</p></div>
+    </div>
+
+    <div class="scene-artists" data-day-group="27">
+      <div class="artist-card"><img src="/assets/img/roosevelt.jpg"/><p>Roosevelt</p></div>
+      <div class="artist-card"><img src="/assets/img/caramelo-de-cuba.png"/><p>Caramelo de Cuba</p></div>
+      <div class="artist-card"><img src="/assets/img/en-attendant-ana.jpg"/><p>En Attendant Ana</p></div>
+    </div>
+
+    <div class="scene-artists" data-day-group="28">
+      <div class="artist-card"><img src="/assets/img/limperatrice.png"/><p>L’Impératrice</p></div>
+      <div class="artist-card"><img src="/assets/img/roosevelt.jpg"/><p>Roosevelt</p></div>
+    </div>
+
+  </section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+
+    <div class="footer__top">
+      <a class="footer__logo" href="/index.html">
+        <img src="/assets/img/logo-festival.svg" alt="Logo du festival"/>
+      </a>
+
+      <div class="footer__socials">
+        <a href="mailto:contact@example.com"><img src="/assets/icons/icon-mail.svg" alt="Mail"/></a>
+        <a href="#"><img src="/assets/icons/icon-youtube.svg" alt="YouTube"/></a>
+        <a href="#"><img src="/assets/icons/icon-instagram.svg" alt="Instagram"/></a>
+        <a href="#"><img src="/assets/icons/icon-tiktok.svg" alt="TikTok"/></a>
+        <a href="#"><img src="/assets/icons/icon-facebook.svg" alt="Facebook"/></a>
+      </div>
+    </div>
+
+    <div class="footer__middle">
+      <p>Conditions générales</p>
+      <p>Gérer les cookies</p>
+    </div>
+
+    <div class="footer__bottom">
+      <p>
+        Projet réalisé en 2025 dans le cadre d’un exercice pédagogique au département
+        <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank">
+          MMi de Montbéliard
+        </a>
+      </p>
+    </div>
+
+  </footer>
+
+</body>
+</html>

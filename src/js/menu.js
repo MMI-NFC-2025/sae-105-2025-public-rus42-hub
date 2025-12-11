@@ -1,15 +1,24 @@
-const menuBtn = document.querySelector('.header__menu-btn');
-const menu = document.querySelector('.header__menu');
-const menuClose = document.querySelector('.menu__close-btn');
+const menuBtn = document.querySelector(".header__menu-btn");
+const closeBtn = document.querySelector(".menu__close-btn");
+const nav = document.getElementById("mainNav");
 
+menuBtn.addEventListener("click", () => {
+  nav.hidden = false;
 
-menuBtn.addEventListener('click', () => {
-  menu.hidden = false;
-  menuBtn.setAttribute('aria-expanded', true);
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      nav.classList.add("menu--open");
+    });
+  });
+
+  document.body.style.overflow = "hidden";
 });
 
+closeBtn.addEventListener("click", () => {
+  nav.classList.remove("menu--open");
+  document.body.style.overflow = "";
 
-menuClose.addEventListener('click', () => {
-  menu.hidden = true;
-  menuBtn.setAttribute('aria-expanded', false);
+  setTimeout(() => {
+    nav.hidden = true;
+  }, 400);
 });

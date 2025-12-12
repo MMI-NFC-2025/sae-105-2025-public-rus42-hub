@@ -89,151 +89,118 @@
       Votre navigateur ne supporte pas la vidéo.
     </video>
 
-    <!-- Overlay shapes + text -->
+
     <div class="hero__overlay hero__overlay--top">
       <p class="hero__text">Montbéliard</p>
     </div>
-
-    <div class="hero__overlay hero__overlay--center">
-      <h1 class="hero__title">26.05 - 28.05</h1>
-    </div>
-
-    <div class="hero__overlay hero__overlay--bottom">
-      <p class="hero__text">BILLETERIE</p>
-    </div>
   </section>
+
+  <div class="hero__date">
+    <h1 class="hero__title">26.05 - 28.05</h1>
+  </div>
+
+  <div class="hero__ticket">
+    <p class="hero__text">BILLETERIE</p>
+  </div>
 </main>
 
 
-    <!-- ===== DOUBLE LINE (CSS) ===== -->
-    <div class="double-line"></div>
 
-    <!-- ===== STARS ===== -->
-    <section class="stars">
-      <img src="assets/icons/star.svg" alt="Étoile gauche" class="stars__icon stars__icon--small">
-      <img src="assets/icons/star.svg" alt="Étoile centrale" class="stars__icon stars__icon--large">
-      <img src="assets/icons/star.svg" alt="Étoile droite" class="stars__icon stars__icon--small">
-    </section>
+   <!-- ===== DOUBLE LINE (CSS) ===== -->
+<div class="double-line">
+  <div class="double-line__line"></div>
+  <div class="double-line__line"></div>
+</div>
 
-    <!-- ===== IMAGE LARGE ===== -->
-    <section class="image-block">
-      <img src="assets/img/festival-emblema.png" alt="Ambiance du festival" class="image-block__img">
-      
-      <!-- Double lines centered -->
-      <div class="double-line double-line--centered"></div>
-    </section>
+<!-- ===== STARS ===== -->
+<section class="stars">
+  <img src="assets/icons/star.svg" alt="Étoile gauche" class="stars__icon stars__icon--small">
+  <img src="assets/icons/star.svg" alt="Étoile centrale" class="stars__icon stars__icon--large">
+  <img src="assets/icons/star.svg" alt="Étoile droite" class="stars__icon stars__icon--small">
+</section>
 
-    <!-- ===== BIG TEXT ===== -->
-    <section class="intro-text">
-      <h2 class="intro-text__title">
-        Le festival qui fait vibrer Montbéliard au rythme des cuivres
-      </h2>
+ <!-- ===== IMAGE LARGE ===== -->
+<section class="image-block">
+  <img src="assets/img/festival-emblema.png" alt="Ambiance du festival" class="image-block__img">
 
-      <!-- Single line -->
-      <div class="single-line"></div>
-    </section>
+  <!-- Double lines centered -->
+  <div class="image-block__line image-block__line--top"></div>
+  <div class="image-block__line image-block__line--middle"></div>
+</section>
 
-    <!-- ===== STAR COMPOSITION ===== -->
-    <section class="stars-composition">
+<!-- ===== BIG TEXT ===== -->
+<section class="intro-text">
+  <h2 class="intro-text__title">
+    Le festival qui fait vibrer Montbéliard au rythme des cuivres
+  </h2>
 
-     <img src="assets/icons/star.svg" alt="Étoile" class="star star--one">
-     <img src="assets/icons/star.svg" alt="Étoile" class="star star--two">
-     <img src="assets/icons/star.svg" alt="Étoile" class="star star--three">
+  <!-- Single line below text -->
+  <div class="intro-text__line"></div>
+</section>
 
-     <img src="assets/icons/trumpet.svg" alt="Trompette" class="instrument">
-    </section>
+     <!-- ===== STAR COMPOSITION ===== -->
+<section class="stars-composition">
+  <img src="assets/icons/star.svg" alt="Étoile" class="star star--one">
+  <img src="assets/icons/star.svg" alt="Étoile" class="star star--two">
+  <img src="assets/icons/star.svg" alt="Étoile" class="star star--three">
 
-    <!-- ===== CTA PROGRAMME ===== -->
-    <section class="cta-programme">
-      <a href="programme.html" class="cta-programme__btn">
-      Voir le programme
-     </a>
-    </section>
+  <img src="assets/icons/trumpet.svg" alt="Trompette" class="instrument">
+</section>
 
-       <!-- ===== ARTISTS CAROUSEL ===== -->
+
+ <!-- ===== Carousel ===== -->
 <section class="artists-carousel">
-
-  <!-- Outer colored shape -->
-  <div class="artists-carousel__container">
-
-    <!-- Track (scrollable area) -->
-    <div class="artists-carousel__track">
-
-      <!-- Artist item -->
-      <article class="artist-item" data-name="Roosevelt">
-  <img src="assets/img/roosevelt.jpg" alt="Roosevelt" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
-
-<article class="artist-item" data-name="L’Impératrice">
-  <img src="assets/img/limperatrice.png" alt="L’Impératrice" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
-
-<article class="artist-item" data-name="En Attendant Ana">
-  <img src="assets/img/en-attendant-ana.jpg" alt="En Attendant Ana" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
-
-<article class="artist-item" data-name="Youn Sun Nah">
-  <img src="assets/img/youn-sun-nah.jpg" alt="Youn Sun Nah" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
-
-<!-- Central artist -->
-<article class="artist-item artist-item--active" data-name="Nicola Conte">
-  <img src="assets/img/nicola-conte.jpg" alt="Nicola Conte" class="artist-item__img">
-</article>
-
-<article class="artist-item" data-name="Caramelo de Cuba">
-  <img src="assets/img/caramelo-de-cuba.png" alt="Caramelo de Cuba" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
-
-<article class="artist-item" data-name="Erik Truffaz">
-  <img src="assets/img/erik-truffaz.jpg" alt="Erik Truffaz" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
-
-<article class="artist-item" data-name="Matteo Mancuso">
-  <img src="assets/img/matteo-mancuso.jpg" alt="Matteo Mancuso" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
-
-<article class="artist-item" data-name="Jacob Collier">
-  <img src="assets/img/jacob-collier.jpg" alt="Jacob Collier" class="artist-item__img">
-  <div class="artist-item__overlay"></div>
-</article>
+  <div class="carousel-background"></div>
 
 
+  
+
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+      <div class="carousel-item" data-name="Roosevelt">
+        <img src="assets/img/roosevelt.jpg" alt="Roosevelt">
+      </div>
+      <div class="carousel-item" data-name="L’Impératrice">
+        <img src="assets/img/limperatrice.png" alt="L’Impératrice">
+      </div>
+      <div class="carousel-item" data-name="En Attendant Ana">
+        <img src="assets/img/en-attendant-ana.jpg" alt="En Attendant Ana">
+      </div>
+      <div class="carousel-item" data-name="Youn Sun Nah">
+        <img src="assets/img/youn-sun-nah.jpg" alt="Youn Sun Nah">
+      </div>
+      <div class="carousel-item" data-name="Nicola Conte">
+        <img src="assets/img/nicola-conte.jpg" alt="Nicola Conte">
+      </div>
+      <div class="carousel-item" data-name="Caramelo de Cuba">
+        <img src="assets/img/caramelo-de-cuba.png" alt="Caramelo de Cuba">
+      </div>
+      <div class="carousel-item" data-name="Erik Truffaz">
+        <img src="assets/img/erik-truffaz.jpg" alt="Erik Truffaz">
+      </div>
+      <div class="carousel-item" data-name="Matteo Mancuso">
+        <img src="assets/img/matteo-mancuso.jpg" alt="Matteo Mancuso">
+      </div>
+      <div class="carousel-item" data-name="Jacob Collier">
+        <img src="assets/img/jacob-collier.jpg" alt="Jacob Collier">
+      </div>
     </div>
 
-    <!-- Name bar under central image -->
-    <div class="artists-carousel__name-bar">
-      Nicola Conte
-    </div>
+    <div class="carousel-name"></div>
 
-    <!-- Pagination dots -->
-    <div class="artists-carousel__dots">
+    <div class="carousel-dots"></div>
 
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot dot--active"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
+    <a href="artistes.html" class="carousel-btn">Voir tous les artistes</a>
 
-    </div>
 
-    <!-- Button -->
-    <a href="artistes.html" class="artists-carousel__btn">
-      Voir tous les artistes
-    </a>
-
+</div>
   </div>
+</section>
+
+
+
+
+
 
 </section>
     <!-- ===== INFOS PRATIQUES ===== -->
@@ -370,6 +337,8 @@
 
   <!-- JS menu -->
   <script src="src/js/menu.js"></script>
+  <script src="src/js/carousel.js"></script>
+
 
 </body>
 </html>

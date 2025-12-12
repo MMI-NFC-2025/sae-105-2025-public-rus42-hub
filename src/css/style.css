@@ -17,3 +17,6 @@
 @import "./components/card-stat.css";
 @import "./components/thumbnail.css";
 @import "components/carousel.css";
+
+/* Pages */
+@import "pages/about.css";
